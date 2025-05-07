@@ -18,7 +18,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 #  Leitura do Arquivo Excel
 # ======================
 
-# Substitua 'dados.xlsx' pelo caminho do seu arquivo
+# Importação dos arquivos
 df = pd.read_excel(
     'C:\\Users\\hugol\\Desktop\\dadosExemplo.xlsx', engine='openpyxl')
 
